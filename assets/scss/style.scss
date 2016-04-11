@@ -1,0 +1,37 @@
+
+/*===============================================*\
+    $STYLE
+\*===============================================*/
+
+/*
+ Aquí incluímos todos los módulos (archivos .scss) que se van
+ a compilar en el CSS definitivo: /css/style.css.
+*/
+
+
+
+//librerias
+@import "lib/settings";
+@import "lib/mixins";
+@import "lib/placeholders";
+
+//base del sitio web
+@import "base/foundation";//6.1
+@import "base/wordpress";
+@import "base/sitio";
+
+//modulos
+@import "abstractions/buttons";
+@import "abstractions/pagination";
+
+
+
+//theme
+@import "theme/button-top";
+@import "theme/header";
+@import "theme/main-menu";
+@import "theme/search";
+@import "theme/widgets";
+@import "theme/footer";
+@import "theme/page";
+@import "theme/comments";

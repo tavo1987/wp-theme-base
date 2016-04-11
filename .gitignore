@@ -1,0 +1,15 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+#archivos phpstorm
+.idea
+.idea/workspace.xml
+#archivos prepros
+*.cfg
+#uploads
+public/uploads
+
+#sublime
+.phpintel
